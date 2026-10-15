@@ -5,7 +5,6 @@ A Python service that simulates a PIR motion sensor and streams telemetry to a [
 ## How it works
 
 - `sensor_simulator.py` simulates PIR motion detection at a configurable interval and probability, then sends each reading (motion state + running total) as an HTTP POST to ThingsBoard's telemetry endpoint.
-- `generate_doc.py` generates the project documentation.
 
 ## Running locally
 
